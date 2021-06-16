@@ -17,7 +17,7 @@ Teste dos Paises
 
 imprimir de ${A} a ${B}
     FOR  ${numero}  IN RANGE  ${A}  ${B}
-        Log To Console    Estou no número: ${numero} de 0 a 10.
+        Log To Console    Estou no número: ${numero} de 10.
         ##${RESULTADO}    Evaluate    ${numero}+10
         ##Log to console  Numero+10 = ${RESULTADO}
     END
