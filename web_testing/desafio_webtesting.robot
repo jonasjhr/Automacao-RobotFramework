@@ -62,11 +62,11 @@ Clicar em "Create an account"
 
 Preencher os dados obrigatórios
     Wait Until Element Is Visible     xpath=//h3[@class='page-subheading'][contains(.,'Your personal information')]
-    Input Text  id=customer_firstname     testejhr1
-    Input Text  id=customer_lastname      testejhrsobrenome1 
+    Input Text  id=customer_firstname     testejhraaaa
+    Input Text  id=customer_lastname      testejhrsobrenomeaaaaa 
     Input Text  id=passwd                  trocar12345
-    Input Text  id=firstname    testejhr1
-    Input Text  id=lastname    testejhrsobrenome1
+    Input Text  id=firstname    testejhraaa
+    Input Text  id=lastname    testejhrsobrenomeaaa
     Input Text  id=address1    Street Teste
     Input Text  id=city        sao paulo
     Select From List By Index    xpath=//select[@name='id_state'][contains(@id,'state')]    1
