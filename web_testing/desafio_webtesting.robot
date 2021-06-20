@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Resource com as implementações das KWs da desafio_webtesting.robot
+Documentation    Resource com as implementações das KWs da desafio_webtesting.robot - Jonas
 Library    SeleniumLibrary
 
 *** Variables ***
